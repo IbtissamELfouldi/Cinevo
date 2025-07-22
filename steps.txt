@@ -1,0 +1,17 @@
+1 - installing npm on manjaro:
+    sudo pacman -S nodejs npm  
+
+2- add the following lines to your shell configuration file (e.g., ~/.bashrc or ~/.zshrc):
+    source /usr/share/nvm/init-nvm.sh 
+
+3 - Use Node Version Manager (nvm) to install Node.js and npm:
+    sudo pacman -S nvm
+
+4- Reload your shell configuration:
+    exec $SHELL
+
+5- Install the latest LTS version of Node.js:
+
+6- Verify the installation:
+    node -v
+    npm -v   

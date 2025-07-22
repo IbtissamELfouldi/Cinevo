@@ -1,0 +1,70 @@
+/* home.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1581905764498-07a472b18188?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+  height: 100vh;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+main.intro {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+main h2 {
+  margin-top: 2rem;
+  color: #1f1f1f;
+}
+
+main ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+main ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.9rem;
+}
